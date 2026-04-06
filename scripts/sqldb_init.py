@@ -14,29 +14,25 @@ def create_tables(conn):
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS plant_assessments (
-            plant_ID TEXT PRIMARY KEY,
-            assessment_id INTEGER,
+            species TEXT PRIMARY KEY,
             height_cm REAL,
             leaf_count INTEGER,
             new_growth_count INTEGER,
             watering_amount_ml REAL,
             watering_frequency_days INTEGER,
-            sunlight_exposure TEXT,
             room_temp_c REAL,
             humidity_percentage REAL,
             fertilizer_type TEXT,
             fertilizer_amount_ml REAL,
-            pest_presence INTEGER,
-            pest_severity TEXT,
             soil_moisture_percentage REAL,
-            soil_type TEXT,
             health_score INTEGER
         )
     ''')
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS plant_weather_daily (
-            plant_ID TEXT PRIMARY KEY,
+            species TEXT PRIMARY KEY,
+            common_name TEXT,
             date DATETIME,
             temperature_2m_min REAL,
             temperature_2m_max REAL,
