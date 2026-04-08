@@ -121,6 +121,10 @@ Example graph showing the distribution of minimum temperatures (degrees C) by da
 
 <img src="assets/charts/dailyMinTempTestHist.png">
 
+Figure showing the time series analysis of each plant's average max temperature over 11 years.
+
+<img src="assets/charts/avg_max_temp.png">
+
 
 ## Results
 
