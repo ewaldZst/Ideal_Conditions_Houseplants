@@ -155,7 +155,7 @@ I would also like to finish hooking up real life sensor data and append rows to 
 
 This project used Claude code sparingly to assist with formatting of some charts which is noted in the notebook where applicable.
 This project used the following libraries
- - pandas as pd
+ - pandas
  - matplotlib.pyplot
  - matplotlib.patheffects
  - seaborn
