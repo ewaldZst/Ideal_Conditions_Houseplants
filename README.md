@@ -31,8 +31,13 @@ This dataset can be used to directly pull keeping parameters, for further analys
 Ideal_Conditions_Houseplants
 ├── assets
 │   ├── charts
-│   │   ├── coordinateMap.png
-│   │   └── dailyMinTempTestHist.png
+│   │   ├── avg_humidity.png
+│   │   ├── avg_max_temp.png
+│   │   ├── avg_min_temp.png
+│   │   ├── coordinateMap.png
+│   │   ├── dailyMinTempTestHist.png
+│   │   ├── out_of_range_values.PNG
+│   │   └── plant_ranges.png
 │   └── thumbnails
 │       ├── analysis.png
 │       ├── data.png
@@ -47,6 +52,10 @@ Ideal_Conditions_Houseplants
 │   └── Indoor_Plant_Health_and_Growth_Factors.csv
 ├── notebooks
 │   └── datacleaning.ipynb
+├── scripts
+│   └── sqldb_init.py
+├── SQL
+│   └── houseplants.db
 ├── README.md
 └── requirements.txt
 
@@ -141,3 +150,17 @@ Example of flagging acute plant measurements based on the ranges defined from th
 I would like to continue exploring the data to see if the most common native range for each plant has shifted over time and then look into why that is. Climate change? Deforestation?
 
 I would also like to finish hooking up real life sensor data and append rows to the plant_assessments SQL table, then spot check it upon append to flag if any parameters are out of range. Then have that notify a plant owner in some way.
+
+## Ackowledgements
+
+This project used Claude code sparingly to assist with formatting of some charts which is noted in the notebook where applicable.
+This project used the following libraries
+ - pandas as pd
+ - matplotlib.pyplot
+ - matplotlib.patheffects
+ - seaborn
+ - geopandas
+ - geodatasets
+ - datetime
+ - requests
+ - sqlite3
