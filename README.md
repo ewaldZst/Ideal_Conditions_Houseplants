@@ -126,11 +126,11 @@ Example graph showing the distribution of minimum temperatures (degrees C) by da
 
 Table for the ideal ranges for houseplants based on their most common native range.
 
-<img src="assets/charts/plant_ranges.png>
+<img src="assets/charts/plant_ranges.png">
 
 Example of flagging acute plant measurements based on the ranges defined from the wild plant weather data.
 
-<img src="assets/charts/out_of_range_values.PNG>
+<img src="assets/charts/out_of_range_values.PNG">
 
 ## Next Steps
 
