@@ -124,4 +124,16 @@ Example graph showing the distribution of minimum temperatures (degrees C) by da
 
 ## Results
 
-Results to follow additional analysis.
+Table for the ideal ranges for houseplants based on their most common native range.
+
+<img src="assets/charts/plant_ranges.png>
+
+Example of flagging acute plant measurements based on the ranges defined from the wild plant weather data.
+
+<img src="assets/charts/out_of_range_values.PNG>
+
+## Next Steps
+
+I would like to continue exploring the data to see if the most common native range for each plant has shifted over time and then look into why that is. Climate change? Deforestation?
+
+I would also like to finish hooking up real life sensor data and append rows to the plant_assessments SQL table, then spot check it upon append to flag if any parameters are out of range. Then have that notify a plant owner in some way.
