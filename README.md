@@ -120,8 +120,6 @@ Currently the only thing to do is run the notebook after dependency installation
 
 ## Analysis
 
-More analysis to follow.
-
 Example graph showing original coordinate data from ```gbif_occurences.csv``` mapped:
 
 <img src="assets/charts/coordinateMap.png">
