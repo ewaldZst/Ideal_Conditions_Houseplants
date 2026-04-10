@@ -9,13 +9,13 @@ Assuming a natural habitat exhibits the best conditions for a given species, thi
 ## Quick Nav
 
 <p align="center">
-    <a href="#overview"><img src="assets/thumbnails/overview.png" height="80" width="80"></a>
-    <a href="#project-structure"><img src="assets/thumbnails/filestructure.png" height="80" width="80"></a> 
-    <a href="#data"><img src="assets/thumbnails/data.png" height="80" width="80"></a>
-    <a href="#setup"><img src="assets/thumbnails/setup.png" height="80" width="80"></a>
-    <a href="#usage"><img src="assets/thumbnails/usage.png" height="80" width="80"></a>
-    <a href="#analysis"><img src="assets/thumbnails/analysis.png" height="80" width="80"></a>
-    <a href="#results"><img src="assets/thumbnails/results.png" height="80" width="80"></a>
+    <a href="#overview"><img src="assets/thumbnails/overview.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#project-structure"><img src="assets/thumbnails/filestructure.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#data"><img src="assets/thumbnails/data.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#setup"><img src="assets/thumbnails/setup.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#usage"><img src="assets/thumbnails/usage.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#analysis"><img src="assets/thumbnails/analysis.png" width="80" style="object-fit: cover; height: 80px;"></a>
+    <a href="#results"><img src="assets/thumbnails/results.png" width="80" style="object-fit: cover; height: 80px;"></a>
 </p>
 
 ## Overview
