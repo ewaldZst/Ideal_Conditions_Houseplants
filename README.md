@@ -1,8 +1,10 @@
-# 🌱 Native Range Historical Weather Data for Common Houseplants🌱
+# 🌱Native Range Historical Weather Data for Common Houseplants🌱
 
 In a search for data linking environmental factors to general houseplant health, it was discovered there were limited datasets that had any solid data collected in a home or home-like environment, and those that did exist were often synthetic. 
 
 Assuming a natural habitat exhibits the best conditions for a given species, this analysis defines ideal conditions for common house plants based on native range weather conditions.
+
+Are we setting our houseplants up for success?
 
 ---
 
