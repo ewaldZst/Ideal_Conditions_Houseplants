@@ -113,9 +113,11 @@ pip install -r requirements.txt
 code .
 ```
 
+7. If houseplants.db is not in the project's SQL folder already, run the sqldb_init.py script. The database will be populated by cells in datacleaning.ipynb
+
 ## Usage
 
-Currently the only thing to do is run the notebook after dependency installation. You can try changing some values for the graphing. The ```export_weather_csv()``` function that generated ```eleven_year_weather_by_species.csv``` will not work as it requires a paid API key.
+Currently the only thing to do is run sqldb_init.py if houseplants.db does not exist in the project's SQL folder, and run the notebook after dependency installation. You can try changing some values for the graphing. The ```export_weather_csv()``` function that generated ```eleven_year_weather_by_species.csv``` will not work as it requires a paid API key.
 
 
 ## Analysis
